@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx --yes create-vite@latest /Users/john/Desktop/mnstack --template react)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5174/manifesto)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(git add *)"
+    ]
+  }
+}
