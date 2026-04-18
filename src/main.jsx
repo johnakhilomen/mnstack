@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './i18n/index.js'
 import './index.css'
 import Landing from './pages/Landing'
 import Manifesto from './pages/Manifesto'
